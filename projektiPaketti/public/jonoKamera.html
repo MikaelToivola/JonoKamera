@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width"/>
+    <title>Jonokamerat | Metropolia</title>
+    <link rel="stylesheet" href="styles.css"> <!-- styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!-- bootstrap css lib -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jquery lib -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> <!-- bootstrap js lib -->
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script> <!-- require lib -->
+    <link rel="shortcut icon" href="logo_icon.png" type="image/png"/> <!-- title icon -->
+</head>
+<body>
+
+        <div class="navbar"> <!-- top bar -->
+                <div class="isokuva"> <!-- larger logo -->
+                    <img src="logo_m.png" alt="metropolia jonokamera ruokalaan"/>
+                </div>
+                <div class="pienikuva"><img src="logo_s.png" alt="metropolia logo" style="max-width: 52px;"/></div> <!-- smaller logo media screen < 600px -->
+            </div>
+            
+         <div class="napit"> <!-- camera button selection -->
+                <button id="leppavaaraNappi" type="button" class="leppavaaraNappi" style="background-color: #d40072;">LEPPÄVAARA</button>
+                <button id="myyrmakiNappi" type="button" class="myyrmakiNappi" style="background-color: #0085cf;">MYYRMÄKI</button>
+                <button id="myllypuroNappi" type="button" class="myllypuroNappi" style="background-color: #bed600;">MYLLYPURO</button>
+                <button id="arabiaNappi" type="button" class="arabiaNappi" style="background-color: #ff5a00;">ARABIA</button>
+        </div>
+
+        <img id="rendered" src="/images/renderedImg1.jpg?" class="img-fluid" alt="Responsive image" alt="jonokamera Metropolia AMK" /> <!-- captured image -->
+        <br><br> 
+
+<script src="js/jonoKamera.js"></script>
+</body>
+</html>
+
+
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+</head>
+<body>
+
+<h1>Windows kamera</h1>
+<p id="text" >microsoft node</p>
+<br>
+<div id="imgContainer">
+	<img id="rendered"  src="">
+</div>
+
+
+<script src="js/jonoKamera.js"></script>
+
+</body>
+</html>
+-->

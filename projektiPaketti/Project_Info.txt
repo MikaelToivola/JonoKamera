@@ -1,0 +1,15 @@
+
+1.Java path setup
+
+Windows CMD projektin JonoProjekti\public\js\java kirjoita
+ 
+path c:\Program Files\Java\jdk1.8.0_181\bin;%path%
+
+2. Marvin versio
+
+marvin_1.5.5
+JonoProjekti\public\js\java\lib
+
+3.Käytetty Node.js versio
+
+Node.js v10.13.0
